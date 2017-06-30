@@ -1,0 +1,27 @@
+@import 'variables';
+
+@mixin center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+@mixin transparentBg {
+  background: $transparentBgColor;
+}
+@mixin button {
+  border: none;
+  background: inherit;
+  outline: none;
+}
+@mixin arrow($size, $rotation : 0deg, $color : black) {
+  &:after {
+    display: block;
+    content: ' ';
+    width: $size;
+    height: $size;
+    border-left: 1px solid $color;
+    border-top: 1px solid $color;
+    transform: rotate($rotation);
+  }
+}

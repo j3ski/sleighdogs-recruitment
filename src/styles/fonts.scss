@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+html {
+  font-family: 'Bree Serif', serif;
+  font-size: 62.5%
+}
+button {
+  font-family: 'Bree Serif', serif;
+}
+body {
+  font-size: 1.4rem;
+}
+h2 {
+  font-size: 2rem;
+}
+section > h2 {
+  text-transform: uppercase;
+  margin-left: 2vw;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
